@@ -16,6 +16,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Rom Stuff
 EXTRA_UDFPS_ANIMATIONS := true
+DERP_BUILDTYPE := Official
 
 PRODUCT_NAME := derp_lunaa
 PRODUCT_DEVICE := lunaa
